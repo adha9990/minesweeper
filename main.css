@@ -1,0 +1,72 @@
+table{
+    user-select: none;
+    font-family: "微軟正黑體";
+}
+td{
+    padding-top: 10px;
+    height:100px;
+}
+/* 單數方塊顏色 */
+.a{
+    background-color: rgb(132, 250, 151);
+}
+.a:hover{
+    cursor:pointer;
+    background-color: rgb(188, 252, 188);
+}
+/* 雙數方塊顏色 */
+.a2{
+    background-color: rgb(236, 226, 226);
+}
+.a2:hover{
+    cursor:pointer;
+    background-color: rgb(241, 246, 241);
+}
+.b{
+    background-color: rgb(73, 243, 130);
+}
+.b:hover{
+    cursor:pointer;
+    background-color: rgb(188, 252, 188);
+}
+.b2{
+    background-color: rgb(209, 204, 204); 
+}
+.b2:hover{
+    cursor:pointer;
+    background-color: rgb(241, 246, 241);
+}
+/* 周圍炸彈數字顏色 */
+.m1{
+    color:blue;
+}
+.m2{
+    color:green;
+}
+.m3{
+    color:red;
+}
+.m4{
+    color:purple;
+}
+.m5{
+    color:orange;
+}
+.m6{
+    color:greenyellow;
+}
+.m7{
+    color:black;
+}
+.m8{
+    color:gray;
+}
+.flag{
+    background-image: url("./img/flag_icon.png");
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.flash{
+    background-color: rgb(213, 243, 213);
+}
