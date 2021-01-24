@@ -196,7 +196,7 @@ var game = {
             });
         }else{
             //附近炸彈數==沒開過的空格+插旗子的空格，自動幫你插旗未開通空格，這功能笑死
-            if(mines.around_mines == count + pre_mines.length){pre_mines.forEach((mines)=>this.flag(mines.x,mines.y));return;}
+            //if(mines.around_mines == count + pre_mines.length){pre_mines.forEach((mines)=>this.flag(mines.x,mines.y));return;}
             //提示未開部分
             pre_mines.forEach((mines)=>{
                 let now_mines = this.map[mines.x][mines.y];
